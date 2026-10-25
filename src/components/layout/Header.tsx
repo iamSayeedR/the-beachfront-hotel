@@ -77,12 +77,12 @@ export function Header() {
             </nav>
 
             {/* CTA & Mobile Toggle */}
-            <div className="flex items-center gap-3 shrink-0">
-              <PrimaryButton size="md" className="hidden lg:inline-block shadow-xs font-bold whitespace-nowrap shrink-0" />
+            <div className="flex items-center gap-2 sm:gap-3 shrink-0">
+              <PrimaryButton size="md" className="hidden lg:inline-block shadow-xs font-bold" />
 
               <button
                 onClick={() => setMenuOpen(true)}
-                className="xl:hidden p-2.5 text-[#2B2623] hover:text-[#7A2332] transition-colors bg-[#F4EFE6] rounded-sm shrink-0"
+                className="xl:hidden p-2.5 text-[#2B2623] hover:text-[#7A2332] transition-colors bg-[#F4EFE6] rounded-sm shrink-0 flex items-center justify-center"
                 aria-label="Open navigation menu"
                 aria-expanded={menuOpen}
               >

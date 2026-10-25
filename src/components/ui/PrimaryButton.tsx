@@ -23,7 +23,10 @@ export function PrimaryButton({
   const isBurgundy = variant === 'burgundy'
   const isInternal = bookingConfig.url.startsWith('/')
 
-  const baseClasses = `inline-block whitespace-nowrap shrink-0 uppercase tracking-[0.1em] font-bold rounded-md transition-all duration-200 text-center shadow-xs ${
+  const hasDisplayOverride = className.includes('hidden') || className.includes('block') || className.includes('flex')
+  const defaultDisplay = hasDisplayOverride ? '' : 'inline-block'
+
+  const baseClasses = `${defaultDisplay} whitespace-nowrap shrink-0 uppercase tracking-[0.1em] font-bold rounded-md transition-all duration-200 text-center shadow-xs ${
     isBurgundy
       ? 'bg-[#7A2332] !text-white hover:bg-[#5C1A26]'
       : 'bg-white !text-[#7A2332] hover:bg-[#F4EFE6]'

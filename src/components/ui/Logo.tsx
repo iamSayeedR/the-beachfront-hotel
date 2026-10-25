@@ -13,18 +13,18 @@ export function Logo({ light = false, className = '', onClick }: LogoProps) {
     <Link
       to="/"
       onClick={onClick}
-      className={`inline-flex flex-col items-center text-center group py-1 ${className}`}
+      className={`inline-flex flex-col items-center text-center group py-1 shrink-0 ${className}`}
     >
       {/* 3 Stars icon matching text color */}
       <div
-        className={`flex items-center justify-center gap-2 mb-1.5 transition-colors ${
+        className={`flex items-center justify-center gap-1.5 sm:gap-2 mb-1 transition-colors ${
           light ? 'group-hover:text-amber-200' : 'group-hover:text-[#7A2332]'
         } ${colorClass}`}
         aria-label="3 Star Hotel"
       >
-        <span className="text-sm sm:text-base leading-none">★</span>
-        <span className="text-sm sm:text-base leading-none">★</span>
-        <span className="text-sm sm:text-base leading-none">★</span>
+        <span className="text-xs sm:text-sm leading-none">★</span>
+        <span className="text-xs sm:text-sm leading-none">★</span>
+        <span className="text-xs sm:text-sm leading-none">★</span>
       </div>
 
       {/* Main Title: THE BEACHFRONT with HOTEL centered below */}
@@ -33,10 +33,10 @@ export function Logo({ light = false, className = '', onClick }: LogoProps) {
           light ? 'group-hover:text-amber-200' : 'group-hover:text-[#7A2332]'
         } ${colorClass}`}
       >
-        <span className="block text-[16px] sm:text-[19px] md:text-[21px] tracking-[0.16em] sm:tracking-[0.2em]">
+        <span className="block text-[14px] sm:text-[18px] md:text-[20px] tracking-[0.14em] sm:tracking-[0.18em] whitespace-nowrap">
           The Beachfront
         </span>
-        <span className="block text-[13px] sm:text-[15px] md:text-[17px] tracking-[0.3em] sm:tracking-[0.36em] mt-0.5">
+        <span className="block text-[11px] sm:text-[14px] md:text-[16px] tracking-[0.28em] sm:tracking-[0.32em] mt-0.5 whitespace-nowrap">
           Hotel
         </span>
       </div>

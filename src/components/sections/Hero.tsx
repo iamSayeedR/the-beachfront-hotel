@@ -4,7 +4,7 @@ import { hotel } from '../../data/hotel'
 
 export function Hero() {
   return (
-    <section className="relative h-[600px] md:h-[680px] flex items-center justify-center text-white overflow-hidden bg-[#2B2623]">
+    <section className="relative min-h-[560px] sm:min-h-[620px] md:h-[680px] py-14 sm:py-18 md:py-0 flex items-center justify-center text-white overflow-hidden bg-[#2B2623]">
       {/* Full-Width Hero Background Image */}
       <div className="absolute inset-0">
         <img
@@ -18,33 +18,33 @@ export function Hero() {
 
       {/* Hero Content inside Centered Container */}
       <div className="relative z-10 site-container text-center flex flex-col items-center">
-        <div className="flex items-center gap-1.5 text-amber-400 text-sm mb-3">
+        <div className="flex items-center gap-1.5 text-amber-400 text-xs sm:text-sm mb-3">
           <span>★</span><span>★</span><span>★</span>
-          <span className="text-white/80 font-bold uppercase tracking-widest text-xs ml-2">Seafront Accommodation · Golden Mile</span>
+          <span className="text-white/80 font-bold uppercase tracking-widest text-[11px] sm:text-xs ml-2">Seafront Accommodation · Golden Mile</span>
         </div>
 
         <h1
-          className="font-serif font-bold text-white !text-white text-[3.25rem] sm:text-[4.25rem] md:text-[5.25rem] leading-[1.05] mb-6 drop-shadow-lg max-w-4xl"
+          className="font-serif font-bold text-white !text-white text-[2.5rem] sm:text-[3.75rem] md:text-[5rem] leading-[1.1] mb-4 sm:mb-6 drop-shadow-lg max-w-4xl"
           style={{ color: '#ffffff' }}
         >
           {hotel.name}
         </h1>
 
         <p
-          className="font-serif italic text-amber-100 !text-amber-100 text-xl sm:text-2xl md:text-[1.75rem] max-w-2xl mb-10 leading-snug drop-shadow-md font-normal"
+          className="font-serif italic text-amber-100 !text-amber-100 text-base sm:text-xl md:text-[1.75rem] max-w-2xl mb-8 sm:mb-10 leading-snug drop-shadow-md font-normal"
           style={{ color: '#fef3c7' }}
         >
           {hotel.tagline}
         </p>
 
-        <div className="flex flex-col sm:flex-row items-center gap-5 w-full sm:w-auto">
+        <div className="flex flex-col sm:flex-row items-center gap-3.5 sm:gap-5 w-full sm:w-auto max-w-xs sm:max-w-none">
           <Link
             to="/rooms"
-            className="btn-hero-offers w-full sm:w-auto min-w-[210px] text-sm px-9 py-4 rounded-md font-bold uppercase tracking-wider shadow-xs text-center inline-block"
+            className="btn-hero-offers w-full sm:w-auto sm:min-w-[210px] text-xs sm:text-sm px-7 sm:px-9 py-3.5 sm:py-4 rounded-md font-bold uppercase tracking-wider shadow-xs text-center inline-block"
           >
             Explore Rooms
           </Link>
-          <PrimaryButton size="lg" className="w-full sm:w-auto min-w-[210px] text-sm px-10 py-4 shadow-md font-bold" />
+          <PrimaryButton size="lg" className="w-full sm:w-auto sm:min-w-[210px] text-xs sm:text-sm px-7 sm:px-10 py-3.5 sm:py-4 shadow-md font-bold" />
         </div>
       </div>
     </section>
