@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Crisp White Background Tile -->
+  <rect width="64" height="64" rx="14" fill="#FFFFFF" />
+  <rect x="2" y="2" width="60" height="60" rx="12" fill="none" stroke="#7A2332" stroke-width="1.5" stroke-opacity="0.25" />
+  
+  <!-- 3 Stars -->
+  <g fill="#7A2332" font-size="9" text-anchor="middle">
+    <text x="20" y="20" font-family="Georgia, serif">★</text>
+    <text x="32" y="19" font-family="Georgia, serif">★</text>
+    <text x="44" y="20" font-family="Georgia, serif">★</text>
+  </g>
+  
+  <!-- TBH Monogram in Burgundy -->
+  <text x="32" y="47" font-family="Georgia, 'Playfair Display', serif" font-size="22" font-weight="700" letter-spacing="1.2" fill="#7A2332" text-anchor="middle">TBH</text>
+</svg>

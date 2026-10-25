@@ -1,0 +1,71 @@
+export const hotel = {
+  name: 'The Beachfront Hotel',
+  tagline: 'Recently renovated ensuite seafront accommodation on the Blackpool Promenade',
+  shortTagline: 'Ensuite accommodation on Blackpool Promenade',
+  address: {
+    street: '265 Promenade',
+    city: 'Blackpool',
+    county: 'Lancashire',
+    postcode: 'FY1 6AH',
+    country: 'United Kingdom',
+    full: '265 Promenade, Blackpool, Lancashire, FY1 6AH',
+  },
+  contact: {
+    phone: '01253 346 163',
+    phoneHref: 'tel:+441253346163',
+    mobile: '01253 346 163',
+    mobileHref: 'tel:+441253346163',
+    email: 'thebeachfronthotel265@gmail.com',
+    emailHref: 'mailto:thebeachfronthotel265@gmail.com',
+  },
+  social: {
+    facebook: 'https://www.facebook.com/valdenehotel/',
+    tripadvisor: 'https://www.tripadvisor.co.uk/Hotel_Review-g186332-d783399-Reviews-Valdene_Hotel-Blackpool_Lancashire_England.html',
+    booking: '/contact',
+  },
+  location: {
+    coordinates: {
+      latitude: 53.8057361,
+      longitude: -3.0549012,
+    },
+    description: 'Ideally located directly on Blackpool Promenade (the Golden Mile) between Central Pier and South Pier, offering panoramic sea views of the Irish Sea. We sit conveniently between Blackpool Tower and Blackpool Pleasure Beach, putting you within easy walking distance of the sandy beach, Madame Tussauds, Winter Gardens, and vibrant entertainment.',
+    mapEmbed: 'https://maps.google.com/maps?q=265+Promenade,+Blackpool+FY1+6AH&t=&z=16&ie=UTF8&iwloc=&output=embed',
+  },
+  stats: {
+    rating: '7.0',
+    ratingLabel: 'Good',
+    reviewsCount: '209+',
+    locationRating: '9.0',
+    staffRating: '8.9',
+    couplesRating: '8.8',
+    wifiRating: '8.0',
+  },
+  awards: [
+    {
+      name: 'Booking.com Location Rating 9.0/10',
+      year: 2026,
+      provider: 'Booking.com',
+      image: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/677262446.jpg?k=7142633b85d56fbbeeab8cb26198e87c5e1242e76726e7e104be1619bcd06ea6&o=',
+      alt: 'The Beachfront Hotel Blackpool Promenade Entrance',
+      badge: '9.0 / 10 Excellent Location',
+    },
+    {
+      name: 'Staff Hospitality Score 8.9/10',
+      year: 2026,
+      provider: 'Booking.com Verified Reviews',
+      image: 'https://cf.bstatic.com/xdata/images/hotel/max1024x768/683078026.jpg?k=5c9760a784e51b6c3c02559d898549703750175c9146970250db63a46f6a844b&o=',
+      alt: 'The Beachfront Hotel Guest Lounge',
+      badge: '8.9 / 10 Guest Care',
+    },
+  ],
+  about: {
+    intro: 'Recently Renovated Seafront Hospitality',
+    body: `The Beachfront Hotel is newly decorated and ideally situated on Blackpool Promenade (the Golden Mile) offering breathtaking views of the Irish Sea. Comprising 20 beautifully decorated all-ensuite bedrooms open all year round, the hotel sits right between Blackpool Tower and Pleasure Beach, offering you the perfect base to explore the Promenade, Town Centre, Central Pier, Winter Gardens, Coral Island, and all famous local amenities and nightlife.`,
+    highlights: `We have invested in brand-new carpet in all rooms, fresh decoration, crisp linens, and full health and safety compliances. With nearly 20 years of hospitality and customer care experience, our team brings a warm welcome to guests from all walks of life, including couples, families, solo travellers, and groups.`,
+    bar: `Relax in our welcoming guest lounge, enjoy fresh tea and coffee, or step right outside onto the promenade and beach within seconds.`,
+  },
+  seo: {
+    title: 'The Beachfront Hotel Blackpool | Seafront Accommodation on Promenade',
+    description: 'The Beachfront Hotel in Blackpool: Recently renovated ensuite guest rooms directly on the Promenade with sea views, free Wi-Fi, and flat-screen TVs. Rated 9.0 for location.',
+  },
+}
