@@ -18,9 +18,14 @@ export function Hero() {
 
       {/* Hero Content inside Centered Container */}
       <div className="relative z-10 site-container text-center flex flex-col items-center">
-        <div className="flex items-center gap-1.5 text-amber-400 text-xs sm:text-sm mb-3">
-          <span>★</span><span>★</span><span>★</span>
-          <span className="text-white/80 font-bold uppercase tracking-widest text-[11px] sm:text-xs ml-2">Seafront Accommodation · Golden Mile</span>
+        {/* Stars & Location Eyebrow: Centered column on mobile, row on desktop */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-1.5 sm:gap-2 mb-3 text-center">
+          <div className="flex items-center justify-center gap-1 text-amber-400 text-xs sm:text-sm" aria-label="3 Star Hotel">
+            <span>★</span><span>★</span><span>★</span>
+          </div>
+          <span className="text-white/90 font-bold uppercase tracking-widest text-[11px] sm:text-xs sm:ml-1 text-center">
+            Seafront Accommodation · Golden Mile
+          </span>
         </div>
 
         <h1
