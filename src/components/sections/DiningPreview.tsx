@@ -13,7 +13,7 @@ export function DiningPreview() {
           className="mb-14"
         />
 
-        {/* Official Valdene Breakfast Options Grid */}
+        {/* Official Beachfront Breakfast Options Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           {dining.items.map((item, idx) => (
             <div key={idx} className="bg-white rounded-lg overflow-hidden shadow-sm border border-[#D8D0C5]/40 flex flex-col justify-between">

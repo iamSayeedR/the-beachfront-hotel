@@ -1,7 +1,7 @@
 import { Hero } from '../components/sections/Hero'
 import { HotelIntro } from '../components/sections/HotelIntro'
 import { RoomsPreview } from '../components/sections/RoomsPreview'
-import { WhyValdene } from '../components/sections/WhyValdene'
+import { WhyBeachfront } from '../components/sections/WhyBeachfront'
 import { DiningPreview } from '../components/sections/DiningPreview'
 import { HotelGallery } from '../components/sections/HotelGallery'
 import { ReviewsSection } from '../components/sections/ReviewsSection'
@@ -15,7 +15,7 @@ export function HomePage() {
       <Hero />
       <HotelIntro />
       <RoomsPreview />
-      <WhyValdene />
+      <WhyBeachfront />
       <DiningPreview />
       <HotelGallery />
       <ReviewsSection />

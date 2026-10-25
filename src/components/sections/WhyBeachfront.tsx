@@ -1,6 +1,6 @@
 import { SectionHeading } from '../ui/SectionHeading'
 
-export function WhyValdene() {
+export function WhyBeachfront() {
   return (
     <section className="py-20 md:py-28 bg-[#F0EAE0]">
       <div className="site-container text-center">

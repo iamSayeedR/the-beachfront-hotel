@@ -19,8 +19,8 @@ export const hotel = {
     emailHref: 'mailto:thebeachfronthotel265@gmail.com',
   },
   social: {
-    facebook: 'https://www.facebook.com/valdenehotel/',
-    tripadvisor: 'https://www.tripadvisor.co.uk/Hotel_Review-g186332-d783399-Reviews-Valdene_Hotel-Blackpool_Lancashire_England.html',
+    facebook: '#',
+    tripadvisor: '#',
     booking: '/contact',
   },
   location: {
