@@ -6,6 +6,7 @@ import { AmenityList } from '../components/rooms/AmenityList'
 import { BookingCTA } from '../components/ui/BookingCTA'
 import { RoomCard } from '../components/rooms/RoomCard'
 import { hotel } from '../data/hotel'
+import { bookingConfig } from '../config/booking'
 
 export function RoomDetailPage() {
   const { slug } = useParams<{ slug: string }>()
@@ -78,12 +79,14 @@ export function RoomDetailPage() {
 
             {/* Action Box */}
             <div className="pt-6 border-t border-[#D8D0C5] space-y-3">
-              <Link
-                to="/contact"
+              <a
+                href={room.detailUrl || bookingConfig.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-full text-center inline-block bg-[#7A2332] hover:bg-[#5C1A26] text-white px-8 py-3.5 rounded-md text-sm font-bold uppercase tracking-wider transition-colors shadow-md"
               >
-                Book your stay →
-              </Link>
+                Book your stay ↗
+              </a>
               <p className="text-xs text-[#5C5650] text-center font-normal">
                 Questions about this room? Call us on{' '}
                 <a href={hotel.contact.phoneHref} className="underline font-bold text-[#2B2623] hover:text-[#7A2332]">

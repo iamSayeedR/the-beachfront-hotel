@@ -47,6 +47,8 @@ export function PrimaryButton({
   return (
     <a
       href={bookingConfig.url}
+      target="_blank"
+      rel="noopener noreferrer"
       className={baseClasses}
       style={{ color: isBurgundy ? '#ffffff' : '#7A2332' }}
     >

@@ -21,7 +21,7 @@ export const hotel = {
   social: {
     facebook: '#',
     tripadvisor: '#',
-    booking: '/contact',
+    booking: 'https://direct-book.com/properties/thebeachfronthotel',
   },
   location: {
     coordinates: {

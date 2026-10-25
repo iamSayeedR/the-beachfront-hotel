@@ -59,7 +59,7 @@ export const rooms: Room[] = [
     ],
     amenities: defaultAmenities,
     features: ['Direct Irish Sea View', 'Private Ensuite with Shower', 'Electric Kettle & Tea/Coffee', 'Flat-screen TV'],
-    detailUrl: '/contact',
+    detailUrl: 'https://direct-book.com/properties/thebeachfronthotel',
     isFeatured: true,
   },
   {
@@ -85,7 +85,7 @@ export const rooms: Room[] = [
     ],
     amenities: defaultAmenities,
     features: ['Comfortable Double Bed', 'Private Ensuite Shower', 'Brand New Carpet', 'Free High-Speed Wi-Fi'],
-    detailUrl: '/contact',
+    detailUrl: 'https://direct-book.com/properties/thebeachfronthotel',
     isFeatured: true,
   },
   {
@@ -112,7 +112,7 @@ export const rooms: Room[] = [
     ],
     amenities: defaultAmenities,
     features: ['Stunning Sea Views', 'Two Double Beds', 'Sleeps up to 4 Guests', 'Generous Spacious Layout'],
-    detailUrl: '/contact',
+    detailUrl: 'https://direct-book.com/properties/thebeachfronthotel',
     isFeatured: true,
   },
   {
@@ -138,7 +138,7 @@ export const rooms: Room[] = [
     ],
     amenities: defaultAmenities,
     features: ['Two Double Beds', 'Private Ensuite Shower', 'Sleeps 4 Guests', 'Electric Kettle & Tea/Coffee'],
-    detailUrl: '/contact',
+    detailUrl: 'https://direct-book.com/properties/thebeachfronthotel',
     isFeatured: true,
   },
   {
@@ -162,7 +162,7 @@ export const rooms: Room[] = [
     ],
     amenities: defaultAmenities,
     features: ['Two Twin Beds', 'Private Ensuite Shower', 'Heating', 'Flat-screen TV'],
-    detailUrl: '/contact',
+    detailUrl: 'https://direct-book.com/properties/thebeachfronthotel',
   },
   {
     id: 'double-room-3',
@@ -185,7 +185,7 @@ export const rooms: Room[] = [
     ],
     amenities: defaultAmenities,
     features: ['Full Double Bed', 'Private Ensuite', 'Free High-Speed Wi-Fi', 'Tea/Coffee Facilities'],
-    detailUrl: '/contact',
+    detailUrl: 'https://direct-book.com/properties/thebeachfronthotel',
   },
   {
     id: 'single-room-5',
@@ -209,7 +209,7 @@ export const rooms: Room[] = [
     ],
     amenities: defaultAmenities,
     features: ['Single Bed with Crisp Linens', 'Window & Natural Light', 'Private Ensuite Shower', 'Flat-screen TV'],
-    detailUrl: '/contact',
+    detailUrl: 'https://direct-book.com/properties/thebeachfronthotel',
   },
   {
     id: 'budget-single-8',
@@ -233,7 +233,7 @@ export const rooms: Room[] = [
     ],
     amenities: defaultAmenities,
     features: ['Great Value Rate', 'Comfortable Bedding', 'Private Ensuite Shower', 'Central Promenade Location'],
-    detailUrl: '/contact',
+    detailUrl: 'https://direct-book.com/properties/thebeachfronthotel',
   },
 ]
 

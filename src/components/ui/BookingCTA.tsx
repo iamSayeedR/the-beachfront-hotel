@@ -38,6 +38,8 @@ export function BookingCTA({
           ) : (
             <a
               href={bookingConfig.url}
+              target="_blank"
+              rel="noopener noreferrer"
               className="inline-block bg-white !text-[#7A2332] px-10 py-4 rounded-md text-sm font-bold uppercase tracking-wider hover:bg-[#F4EFE6] transition-colors shadow-sm whitespace-nowrap"
               style={{ color: '#7A2332' }}
             >

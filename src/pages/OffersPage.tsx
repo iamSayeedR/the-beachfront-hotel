@@ -3,6 +3,7 @@ import { SectionHeading } from '../components/ui/SectionHeading'
 import { offers, offersContactNote } from '../data/offers'
 import { PrimaryButton } from '../components/ui/PrimaryButton'
 import { hotel } from '../data/hotel'
+import { bookingConfig } from '../config/booking'
 
 export function OffersPage() {
   return (
@@ -35,12 +36,14 @@ export function OffersPage() {
                   </div>
                 </div>
                 <div className="p-6 pt-0">
-                  <Link
-                    to="/contact"
+                  <a
+                    href={bookingConfig.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="inline-block bg-[#7A2332] text-white text-xs font-bold uppercase tracking-wider px-5 py-2.5 rounded hover:bg-[#5C1A26] transition-colors"
                   >
-                    Check Availability →
-                  </Link>
+                    Check Availability ↗
+                  </a>
                 </div>
               </div>
             ))}

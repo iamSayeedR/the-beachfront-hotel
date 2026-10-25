@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import { SectionHeading } from '../ui/SectionHeading'
 import { rooms } from '../../data/rooms'
+import { bookingConfig } from '../../config/booking'
 
 export function RoomsPreview() {
   const previewRooms = rooms.filter(r => r.isFeatured).slice(0, 3)
@@ -80,12 +81,14 @@ export function RoomsPreview() {
                   >
                     View Details →
                   </Link>
-                  <Link
-                    to="/contact"
+                  <a
+                    href={bookingConfig.url}
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="text-xs font-bold text-[#7A2332] hover:underline"
                   >
-                    Book your stay →
-                  </Link>
+                    Book your stay ↗
+                  </a>
                 </div>
               </div>
             </article>
